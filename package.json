@@ -1,0 +1,38 @@
+{
+  "name": "midnight-vibes-bot",
+  "version": "2.0.0",
+  "description": "Midnight Vibes: A dark, cinematic Discord music bot for night owls: lo-fi and chill radio, slowed + reverb filter, 24/7 listening rooms and a live web dashboard.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "check": "node scripts/check.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "music-bot",
+    "discord.js",
+    "premium",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.15",
+    "play-dl": "^1.9.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krishyaa06/midnight-vibes-bot.git"
+  }
+}
